@@ -1,0 +1,132 @@
+.movieInformation p, h1, h3, a, h4 {
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+}
+
+.movieInformation p {
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+}
+
+.movieInformation {
+    width: 1280px;
+    height: 775px;
+}
+
+.aboutMovie {
+    display: flex;
+    margin: 50px;
+}
+
+.poster {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details {
+    max-width: 790px;
+    height: 580px;
+    background: rgba(29, 29, 29, 0.5);
+    border-radius: 50px 50px;
+    padding: 25px;
+}
+
+
+
+
+
+.ratings {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.money {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+}
+
+.stars {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.posterGenres {
+    max-width: 345px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 13px;
+}
+
+
+.genre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 24px;
+    background: rgba(29, 29, 29, 0.5);
+    border-radius: 0px 8px;
+}
+
+.genre:hover {
+    transform: scale(1.20);
+    transition: transform 0.15s linear;
+}
+
+.genre p {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0FEFFD;
+}
+
+.titleBadge {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleBadge h1 {
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    color: white;
+}
+
+.releaseDate {
+    margin-top: 10px;
+}
+
+.production {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px
+}
+
+.company img {
+    max-height: 50px;
+}
+
+.company {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+

@@ -1,0 +1,92 @@
+.carousel {
+    width: 1280px;
+    height: 720px;
+}
+
+.carousel .carouselSlide {
+    display: flex;
+    align-items: center;
+    height: 720px;
+}
+
+.carousel .genreBadge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 111px;
+    height: 24px;
+    background: rgba(29, 29, 29, 0.5);
+    border-radius: 0px 8px;
+}
+
+.carousel .genreBadge p {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0FEFFD;
+}
+
+.carousel .carouselInfo {
+    margin-left: 80px;
+    max-width: 650px;
+}
+
+.carousel .carouselInfo h1 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+.carousel .carouselInfo .info {
+    max-width: 620px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.carousel .carouselBtn {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 40px 40px rgba(0, 0, 0, 0.12);
+
+}
+
+.carousel .slick-dots {
+    margin-top: -70px;
+    position: relative;
+}
+
+.carousel .slick-next:before {
+    background: linear-gradient(269.66deg, #1D1D1D 3.45%, rgba(29, 29, 29, 0) 96.65%);
+}
+
+.carousel .slick-next {
+    width: 313px;
+    height: 720px;
+    top: 360px;
+}
+
+.carousel .carouselInfo button{
+    width: 288px;
+    height: 56px;
+    background: rgba(44, 44, 44, 0.3);
+    box-shadow: 0px 16px 16px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 40px;
+}
+
+.carousel .slick-list {
+    width: 1280px;
+}
